@@ -1,5 +1,6 @@
 # BamPi
 BamPi is a .NET library for quickly creating a REST API based on a existing model.
+The idea is based on [Paul Stovell's blog post about Octopus Deploy 2.0 API](http://paulstovell.com/blog/convention-based-rest-api-with-documentation)
 
 ## Getting Started
 Currently BamPi needs NancyFx and the Entity Framework to work. 
