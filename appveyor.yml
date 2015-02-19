@@ -1,0 +1,6 @@
+version: 0.0.{build}
+
+init:
+  - nuget restore
+  - nuget install GitVersion.CommandLine  -x -o packages
+  - .\packages\GitVersion.CommandLine\Tools\GitVersion.exe /output buildserver /updateassemblyinfo true
